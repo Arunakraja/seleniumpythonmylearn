@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.service import Service
 chromeser = Service("C:\\browserdrivers\\chromedriver.exe")
 edgeser = Service("C:\\browserdrivers\\msedgedriver.exe")
 #fireser = Service("C:\\browserdrivers\\geckodriver.exe")
-foxser = Service("C:\browserdrivers\geckodriver.exe")
+foxser = Service("C:\\browserdrivers\\geckodriver.exe")
 
 driver = webdriver.Chrome(service=chromeser)
 egdriver = webdriver.Edge(service=edgeser)
