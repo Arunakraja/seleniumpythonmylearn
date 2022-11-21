@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.edge.service import Service
-from selenium.webdriver.firefox.service import Service
+#from selenium.webdriver.firefox.service import Service
 
 chromeser = Service("C:\\browserdrivers\\chromedriver.exe")
 edgeser = Service("C:\\browserdrivers\\msedgedriver.exe")
