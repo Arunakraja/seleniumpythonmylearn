@@ -8,7 +8,6 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdrivermanager import GeckoDriverManager
 
-def driver():
-    chromedriver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    egdriver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-    firedriver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+chromedriver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+egdriver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+firedriver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
