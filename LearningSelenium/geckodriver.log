@@ -1,0 +1,16 @@
+1668829785737	geckodriver	INFO	Listening on 127.0.0.1:57297
+1668905090017	geckodriver	INFO	Listening on 127.0.0.1:49699
+1668905264516	geckodriver	INFO	Listening on 127.0.0.1:49867
+1668905438667	geckodriver	INFO	Listening on 127.0.0.1:49997
+1668905621716	geckodriver	INFO	Listening on 127.0.0.1:50097
+1668906050646	geckodriver	INFO	Listening on 127.0.0.1:50269
+1668906053752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50270" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ARUNKU~1\\AppData\\Local\\Temp\\rust_mozprofileCNdGhz"
+1668906054250	Marionette	INFO	Marionette enabled
+1668906054258	Marionette	INFO	Listening on port 50279
+Read port: 50279
+WebDriver BiDi listening on ws://127.0.0.1:50270
+1668906054450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ARUNKU~1\\AppData\\Local\\Temp\\rust_mozprofileCNdGhz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50270/devtools/browser/aa5065a0-c12e-4ba0-8f9f-342c442becd5
+JavaScript error: https://static-exp1.licdn.com/sc/h/cwphtfsvdwm4k6n91alllgs6q, line 122: ReferenceError: IN is not defined
+1668906103273	Marionette	INFO	Stopped listening on port 50279
